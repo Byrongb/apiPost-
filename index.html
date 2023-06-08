@@ -1,16 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="./css/index.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil de Twitter</title>
+  <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    
-    <div id="posts-container"></div>
-    <script src="./js/main.js"></script>
+  <div class="profile-header">
+    <div class="cover-image"></div>
+    <div class="profile-container">
+        <div class="profile-content">
+            <div class="profile-picture"></div>
+            <div class="profile-info">
+              <h1 class="username">Nombre de Usuario</h1>
+              <p class="at-username">@username</p>
+            </div>
+          </div>
+      <div class="profile-buttons">
+        <button class="profile-button round">Botón 1</button>
+        <button class="profile-button round">Botón 2</button>
+        <button class="profile-button">Botón 3</button>
+      </div>
+      
+      <div class="profile-menu">
+        <a href="#" class="menu-item">Posts</a>
+        <a href="#" class="menu-item">User</a>
+        <a href="#" class="menu-item">Photos</a>
+      </div>
+      <hr class="divider">
+    </div>
+  </div>
+
+  <div id="posts-container"></div>
+
+  <script src="./js/main.js"></script>
 </body>
 </html>
